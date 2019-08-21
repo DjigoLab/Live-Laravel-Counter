@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'UsersController@index');
+Route::post('/', 'UsersController@store');
 
 Route::resource('rooms', 'RoomsController');
 
