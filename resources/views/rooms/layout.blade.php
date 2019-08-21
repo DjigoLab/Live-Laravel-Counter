@@ -16,7 +16,7 @@
     <footer class="footer {{ !empty($footer_class) ? $footer_class : "" }}">
         @yield('footer-content')
     </footer>
+    <script type="text/javascript" src="../js/app.js"></script>
 
-    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

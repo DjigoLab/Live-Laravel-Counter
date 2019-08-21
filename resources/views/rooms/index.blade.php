@@ -28,6 +28,5 @@
         <li> <a href="/"> Home </a></li>
         @endsection
 
-        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

@@ -14,17 +14,7 @@
         @endsection
 
         @section('content')
-        <main id="counter">
-            <p id="quantity">Number</p>
-            <div class="buttons">
-                <div class="plus">
-                    <p>+</p>
-                </div>
-                <div class="minus">
-                    <p>-</p>
-                </div>
-            </div>
-        </main>
+        <the-counter></the-counter>
         <aside class="users-connected">
 
         </aside>
