@@ -19,6 +19,7 @@ class CreateRoomsTable extends Migration
             $table->integer('counter_value')->default(0);
             $table->integer('max_capacity')->nullable(true);
             $table->integer('user_quantity')->default(0);
+
             $table->timestamps();
         });
     }
