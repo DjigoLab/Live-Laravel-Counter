@@ -7,7 +7,7 @@
     <title>Room de Rooms</title>
 </head>
 <body>
-
+    <div id="app">
     <header>
         <h2>Choose your room</h2>
         <input type="text" name="room" id="room-searcher" placeholder="Search room here">
@@ -24,6 +24,8 @@
     <footer class="rooms-footer">
         <li> <a href="/"> Home </a></li>
     </footer>
+</div>
     <script type="text/javascript" src="js/app.js"></script>
+
 </body>
 </html>
