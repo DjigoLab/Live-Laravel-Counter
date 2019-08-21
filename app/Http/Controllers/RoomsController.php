@@ -47,7 +47,7 @@ class RoomsController extends Controller
     public function show(Room $room)
     {
         //
-        return $room;
+        return view('rooms.room', compact( 'room' ));
     }
 
     /**
